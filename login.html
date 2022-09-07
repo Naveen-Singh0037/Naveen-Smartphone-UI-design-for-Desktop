@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site for Smartphone
+    </title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+</head>
+<style>
+    .login-title {
+  text-align: center;
+}
+#login-page {
+ background-color: #36333428;
+  display: flex;
+}
+.notice {
+  font-size: 13px;
+  text-align: center;
+  color: #666;
+}
+.loginn {
+  border-radius: 34px;
+  margin: 10.4vh 33vw;
+  width: 23%;
+  height: 68vh;
+  background: #FFF;
+  padding: 5px 65px 10px 65px;
+}
+.login a {
+  margin-top: 25px;
+  text-align: center;
+}
+.form-login {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+.form-login label {
+  text-align: left;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 20px;
+  display: block;
+  color: #666;
+}
+.input-email,
+.input-password {
+  width: 100%;
+  background: #ededed;
+  border-radius: 25px;
+  margin: 4px 0 10px 0;
+  padding: 10px;
+  display: flex;
+}
+.icon {
+  padding: 4px;
+  color: #666;
+  min-width: 30px;
+  text-align: center;
+}
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 4px 0;
+  outline: none;
+}
+button[type="submit"] {
+  width: 100%;
+  border: 0;
+  border-radius: 25px;
+  padding: 14px;
+  background: #f41563;
+  color: #FFF;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  transition: ease all 0.3s;
+}
+button[type="submit"]:hover {
+  opacity: 0.9;
+}
+.background {
+  width: 70%;
+  padding: 40px;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  align-content: center;
+  flex-direction: row;
+}
+.background h1 {
+  max-width: 420px;
+  color: #FFF;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+.background p {
+  max-width: 650px;
+  color: #1a1a1a;
+  font-size: 15px;
+  text-align: right;
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+.created {
+  margin-top: 40px;
+  text-align: center;
+}
+.created p {
+  font-size: 13px;
+  font-weight: bold;
+  color: #008552;
+}
+.created a {
+  color:#f41563;
+  font-weight: normal;
+  text-decoration: none;
+  margin-top: 0;
+}
+.checkbox label {
+  display: inline;
+  margin: 0;
+}
+</style>
+<body>
+    <header>
+        <nav style="
+        height: 52px;">
+            <div class="logo">
+                <img src="image/icon/Group 1.png" alt="" height="42vw">
+
+            </div>
+            <div class="search threee">
+                <input type="text" placeholder=" Search for products, brands and more">
+                <div class="ico">
+                    <img src="image/icon/search.png" alt="" height="20px">
+                </div>
+            </div>
+        </nav>
+        <nav1>
+            <div class="profile">
+                <div class="login">
+                    
+                    <button class="three"><a href="login.html"> Login</a></button>
+                </div>
+                
+                <div class="more">
+                    <a href="#">More</a>
+                </div>
+                <div class="cart three">
+                    <a href="#"><img src="image/icon/cart.png" alt="cart" height="30px"></a>
+                </div>
+                <div class="carts"><a href="#">Cart</a></div>
+            </div>
+        </nav1>
+    </header>
+
+   
+
+    <div class="subheader" style="    height: 0vh;">
+    </div>
+    
+    <main>
+        <div id="login-page">
+          
+            <div class="loginn">
+              <h2 style="margin-left: 29vw;" ><a href="index.html"><img src="image/icon/Icon metro-cancel.png" alt="cart" height="30px"></a></h2>
+              <h2 class="login-title">Login</h2>
+        
+              <form class="form-login">
+                <label for="email">E-mail</label>
+                <div class="input-email">
+                  <i class="fas fa-envelope icon"></i>
+                  <input type="email" name="email" placeholder="Enter your e-mail" required>
+                </div>
+                <label for="password">Password</label>
+                <div class="input-password">
+                  <i class="fas fa-lock icon"></i>
+                  <input type="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <div class="checkbox">
+                  <label for="remember">
+                    <input type="checkbox" name="remember">
+                    Remember me
+                  </label>
+                </div>
+                <button type="submit"><i class="fas fa-door-open"></i> Sign in</button>
+              </form>
+                <a href="#" style="margin-top: 44px;">Forgot your password?</a>
+              <div class="created">
+                <p>or <a href="#">Sign Up</a></p>
+              </div>
+            </div>
+           
+          </div>
+    
+        <!-- <img src="https://source.unsplash.com/175x175/?iPads" alt=""></a> -->
+    </main>
+
+    <footer>
+        <div class=" ">
+
+        </div>
+        <div class="logo" style="    margin: 1vw 0vw 1vw -16vw;">
+            <img src="image/icon/Group 1.png" alt="" height="42vw">
+
+        </div>
+        <div>
+            <p>Copyright © 2022 <a style="text-decoration: auto;" href="#">Naveen Singh</a>. All Rights Reserved.</p>
+        </div>
+        <div class="cart three">
+            <a href="https://www.linkedin.com/in/naveen-singh-a52933203/"><img src="image/icon/linkedin-rect.png" alt="cart"
+                    height="30px"></a>
+            <a href="https://github.com/Naveen-Singh0037"><img src="image/icon/github.png" alt="cart" height="30px"></a>
+        </div>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+
+</html>
